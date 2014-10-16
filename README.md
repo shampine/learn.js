@@ -10,4 +10,4 @@ This is just a repo of projects that I've built following either guides, videos,
 
 ## license
 
-MIT for any of my work, but all tutorial code is owned by the respective tutorial author.
+MIT for any of my work, but all tutorial code is owned by the respective author.
