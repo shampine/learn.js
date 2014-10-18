@@ -7,5 +7,13 @@
 <body>
   <h1>The list of things</h1>
   <ul class="things"></ul>
+  <h1>The list of things with handlebars</h1>
+  <ul class="handlebar-things">
+    <script id="thing-template" type="x-handlebars-template">
+      {{#each this}}
+        <li class="thing"><a href="/{{name}}">{{name}} -- Price: {{price}}</a></li>
+      {{/each}}
+    </script>
+  </ul>
 </body>
 </html>

@@ -13,3 +13,17 @@ $(function() {
   }
   $(".things").append(updateAllThings(thingsData));
 });
+
+$(function() {
+  var thingsData = [
+    {name:"Couch", price:499.00 },
+    {name:"Blanket", price:59.00 },
+    {name:"Pillow Pants", price:259.00 }
+  ];
+
+  var theTemplateScript = $('#thing-template').html();
+
+  var theTemplate = Handlebars.compile(theTemplateScript);
+  $(".handlebar-things").append(theTemplate(thingsData));
+
+});
