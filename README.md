@@ -8,6 +8,7 @@ This is just a repo of projects that I've built following either guides, videos,
 | --------------- | --------------- | -------------------------- |
 | space-invaders  | Mary Rose Cook  | [Vimeo](http://vimeo.com/105955605) |
 | handlebars      | Richard Bovell  | [JavascriptIsSexy](http://javascriptissexy.com/handlebars-js-tutorial-learn-everything-about-handlebars-js-javascript-templating/) |
+| todo 		  | Chris Sevilleja | [Scotch](http://scotch.io/tutorials/javascript/creating-a-single-page-todo-app-with-node-and-angular) |
 
 ## license
 
